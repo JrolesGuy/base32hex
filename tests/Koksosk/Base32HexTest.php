@@ -11,7 +11,7 @@ class Base32HexTest extends \PHPUnit_Framework_TestCase
      */
     public function testEncode()
     {
-        $str = Base32Hex::encode("Hello");
+        $str = Base32Hex::encode("Jroles");
         $this->assertSame("91IMOR3F", $str);
     }
 
